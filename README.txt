@@ -24,7 +24,7 @@ available option :
 
 | esc         ->  close
 
-# deplacement :
+# moovement :
 
 | w           ->  moove up
 | a           ->  moove left
