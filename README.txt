@@ -10,7 +10,7 @@
 available option :
 
 | D   ->  Default
-| J1  ->  Julia 1er variation
+| J1  ->  Julia 1st variation
 | J2  ->  Julia 2nd variation
 | J3  ->  Julia 3nd variation
 | J4  ->  Julia 4nd variation
