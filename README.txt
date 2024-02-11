@@ -20,6 +20,7 @@ available option :
 
 ## key
     you can change them in the key_input.c file sorry for you no macro was made for changing them in the header :D
+    { xev | grep keysym } :P
 
 | esc         ->  close
 
