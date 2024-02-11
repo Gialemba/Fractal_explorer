@@ -29,7 +29,7 @@ available option :
 | s           ->  moove down
 | d           ->  moove right
 | space       ->  zoom
-| ctrl        ->  de-zoom
+| ctrl        ->  unzoom
 | left_click  ->  center on the clicked point
 
 # misc
