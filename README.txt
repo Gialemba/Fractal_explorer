@@ -2,6 +2,7 @@
 
 # description:
     fractal explorer still buggy but work
+    don't judge my spagetty code plz i had a norm to respect D:
 
 ## start
 
