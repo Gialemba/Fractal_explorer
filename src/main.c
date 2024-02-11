@@ -6,7 +6,7 @@
 /*   By: tali <tali@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/11 04:34:38 by tali              #+#    #+#             */
-/*   Updated: 2024/02/11 04:34:39 by tali             ###   ########.fr       */
+/*   Updated: 2024/02/10 23:24:15 by tali             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ void	ft_handler(t_ptr *d, char *s)
 			d->f = 6;
 		else
 		{
-			ft_printf("available option : D, J1, J2, J3, J4, MB, BS\n");
+			printf("available option : D, J1, J2, J3, J4, MB, BS\n");
 			exit_hook(&(*d));
 		}
 
@@ -60,8 +60,8 @@ int	main(int ac, char **av)
 		mlx_loop(d.mlx_ptr);
 	}
 	else if (ac > 2)
-		ft_printf("Only one option can be set\n");
+		printf("Only one option can be set\n");
 	else
-		ft_printf("available option : D, J1, J2, J3, J4, MB, BS\n");
+		printf("available option : D, J1, J2, J3, J4, MB, BS\n");
 	return (0);
 }
